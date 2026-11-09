@@ -1,0 +1,8 @@
+task,approach,metric,test_value,note
+Aspect detection,BERTopic topic to aspect only,micro F1,0.383,
+Aspect detection,Cue lexicon only,micro F1,0.779,
+Aspect detection,Classifier only (p >= 0.5),micro F1,0.732,
+Aspect detection,Lexicon + classifier (chosen),micro F1,0.766,"chosen on DEV (0.793); TEST precision 0.690, recall 0.861, macro F1 0.777"
+Sentiment,VADER alone,accuracy,0.726,negative F1 0.655
+Sentiment,VADER + scoped domain rules (chosen),accuracy,0.795,"negative F1 0.774, positive F1 0.913"
+Food-safety flag,Lexicon + classifier,F1,0.95,"precision 0.90, recall 1.00; very few positives"

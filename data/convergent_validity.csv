@@ -1,0 +1,5 @@
+model_aspect_net_sentiment,google_sub_rating,spearman_rho,reviews
+Food quality,Food,0.477,4089
+Staff & hospitality,Service,0.534,2757
+Speed & waiting,Service,0.557,714
+Ambience,Atmosphere,0.420,819

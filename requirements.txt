@@ -1,0 +1,27 @@
+# Core data handling
+pandas
+numpy
+pyarrow
+openpyxl
+scipy
+
+# Modelling and statistics
+scikit-learn
+joblib
+statsmodels
+vaderSentiment
+
+# NLP and topic discovery (steps 04–05)
+spacy            # then: python -m spacy download en_core_web_md
+langdetect
+tqdm
+sentence-transformers
+bertopic
+umap-learn
+hdbscan
+
+# Charts and reports (steps 02–03)
+matplotlib
+seaborn
+plotly
+python-docx
